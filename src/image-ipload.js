@@ -2,9 +2,9 @@ const aws = require('aws-sdk')
 const multer = require('multer')
 const multerS3 = require('multer-s3')
 aws.config.update({
-    secretAccessKey: 'o3mAmMASD+gZ3jQui/EQUTMg5kPB7f64WvRvTb9J',
-    accessKeyId: 'AKIAI4R6OZWCJ2LT7OSA ',
-    region: 'us-east-2'
+    secretAccessKey: 'SECRETKEY HERE',
+    accessKeyId: 'KEYID HERE',
+    region: 'region here'
 })
 const s3 = new aws.S3()
 // Middlewares
